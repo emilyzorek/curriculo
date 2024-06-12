@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(36 69% 5%);
+    margin: 10;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: hwb(0 0% 100%);
+}
+
+button[type="button"] {
+    background: #f35900;
+}
+
+button[type="button"]:hover {
+    background: #f35900;
+}
